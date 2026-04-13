@@ -43,12 +43,6 @@ export default function CaseStudy({ data, isRecruiterMode }: CaseStudyProps) {
     }
   }
 
-  const handlePlayPause = () => {
-    if (videoRef.current) {
-      setIsPlaying(!videoRef.current.paused)
-    }
-  }
-
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
