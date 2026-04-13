@@ -106,23 +106,23 @@ export default function CaseStudy({ data, isRecruiterMode }: CaseStudyProps) {
             <h3>Tools & Software</h3>
             <div className="tools-grid">
               <div className="tool-item">
-                <img src="/medimate/figma.webp" alt="Figma" className="tool-logo-img" />
+                <img src={`${import.meta.env.BASE_URL}medimate/figma.webp`} alt="Figma" className="tool-logo-img" />
                 <p className="tool-name">Figma</p>
               </div>
               <div className="tool-item">
-                <img src="/medimate/miro.png" alt="Miro" className="tool-logo-img" />
+                <img src={`${import.meta.env.BASE_URL}medimate/miro.png`} alt="Miro" className="tool-logo-img" />
                 <p className="tool-name">Miro</p>
               </div>
               <div className="tool-item">
-                <img src="/medimate/word.png" alt="MS Word" className="tool-logo-img" />
+                <img src={`${import.meta.env.BASE_URL}medimate/word.png`} alt="MS Word" className="tool-logo-img" />
                 <p className="tool-name">MS Word</p>
               </div>
               <div className="tool-item">
-                <img src="/medimate/notion.webp" alt="Notion" className="tool-logo-img" />
+                <img src={`${import.meta.env.BASE_URL}medimate/notion.webp`} alt="Notion" className="tool-logo-img" />
                 <p className="tool-name">Notion</p>
               </div>
               <div className="tool-item">
-                <img src="/medimate/adobe.jpg" alt="Adobe Illustrator" className="tool-logo-img" />
+                <img src={`${import.meta.env.BASE_URL}medimate/adobe.jpg`} alt="Adobe Illustrator" className="tool-logo-img" />
                 <p className="tool-name">Adobe Illustrator</p>
               </div>
             </div>
@@ -150,7 +150,7 @@ export default function CaseStudy({ data, isRecruiterMode }: CaseStudyProps) {
           {/* Hero Image */}
           <motion.section variants={itemVariants} className="case-section photo-section">
             {data.heroImage ? (
-              <img src={data.heroImage} alt="Project Hero" className="case-image" />
+              <img src={`${import.meta.env.BASE_URL}${data.heroImage.replace(/^\//, '')}`} alt="Project Hero" className="case-image" />
             ) : (
               <div className="photo-placeholder">
                 <span className="placeholder-text">Project Hero Image</span>
@@ -212,7 +212,7 @@ export default function CaseStudy({ data, isRecruiterMode }: CaseStudyProps) {
 
           {/* Problem Image */}
           <motion.section variants={itemVariants} className="case-section photo-section problem-image">
-            <img src="/medimate/problem.png" alt="Problem Research / User Interview" className="case-image" />
+            <img src={`${import.meta.env.BASE_URL}medimate/problem.png`} alt="Problem Research / User Interview" className="case-image" />
           </motion.section>
 
           {/* Research Section */}
@@ -344,8 +344,8 @@ export default function CaseStudy({ data, isRecruiterMode }: CaseStudyProps) {
               </div>
             </div>
             <div className="photo-grid">
-              <img src="/medimate/low-fi prototype.jpeg" alt="Wireframe Sketches" className="case-image" />
-              <img src="/medimate/information architecture.png" alt="Information Architecture" className="case-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/low-fi prototype.jpeg`} alt="Wireframe Sketches" className="case-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/information architecture.png`} alt="Information Architecture" className="case-image" />
             </div>
           </motion.section>
 
@@ -445,8 +445,8 @@ export default function CaseStudy({ data, isRecruiterMode }: CaseStudyProps) {
               <p>{data.solution}</p>
             </div>
             <div className="photo-grid">
-              <img src="/medimate/solution1.png" alt="Solution 1" className="case-image" />
-              <img src="/medimate/solution2.png" alt="Solution 2" className="case-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/solution1.png`} alt="Solution 1" className="case-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/solution2.png`} alt="Solution 2" className="case-image" />
             </div>
           </motion.section>
 
@@ -456,17 +456,17 @@ export default function CaseStudy({ data, isRecruiterMode }: CaseStudyProps) {
             <h2>Final Designs</h2>
             <p className="section-intro">The polished, production-ready interface built for international healthcare users.</p>
             <div className="final-designs-grid">
-              <img src="/medimate/ProjectImage1.png" alt="Final Design 1" className="final-design-image" />
-              <img src="/medimate/ProjectImage2.png" alt="Final Design 2" className="final-design-image" />
-              <img src="/medimate/ProjectImage3.png" alt="Final Design 3" className="final-design-image" />
-              <img src="/medimate/ProjectImage4.png" alt="Final Design 4" className="final-design-image" />
-              <img src="/medimate/ProjectImage5.png" alt="Final Design 5" className="final-design-image" />
-              <img src="/medimate/ProjectImage6.png" alt="Final Design 6" className="final-design-image" />
-              <img src="/medimate/ProjectImage7.png" alt="Final Design 7" className="final-design-image" />
-              <img src="/medimate/ProjectImage8.png" alt="Final Design 8" className="final-design-image" />
-              <img src="/medimate/ProjectImage9.png" alt="Final Design 9" className="final-design-image" />
-              <img src="/medimate/ProjectImage10.png" alt="Final Design 10" className="final-design-image" />
-              <img src="/medimate/ProjectImage11.png" alt="Final Design 11" className="final-design-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/ProjectImage1.png`} alt="Final Design 1" className="final-design-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/ProjectImage2.png`} alt="Final Design 2" className="final-design-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/ProjectImage3.png`} alt="Final Design 3" className="final-design-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/ProjectImage4.png`} alt="Final Design 4" className="final-design-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/ProjectImage5.png`} alt="Final Design 5" className="final-design-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/ProjectImage6.png`} alt="Final Design 6" className="final-design-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/ProjectImage7.png`} alt="Final Design 7" className="final-design-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/ProjectImage8.png`} alt="Final Design 8" className="final-design-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/ProjectImage9.png`} alt="Final Design 9" className="final-design-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/ProjectImage10.png`} alt="Final Design 10" className="final-design-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/ProjectImage11.png`} alt="Final Design 11" className="final-design-image" />
               <img src="/medimate/ProjectImage12.png" alt="Final Design 12" className="final-design-image" />
               <img src="/medimate/ProjectImage13.png" alt="Final Design 13" className="final-design-image" />
               <img src="/medimate/ProjectImage14.png" alt="Final Design 14" className="final-design-image" />

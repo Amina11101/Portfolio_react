@@ -47,7 +47,7 @@ export default function FlowerDecorations() {
           onMouseLeave={() => setHoveredFlowerId(null)}
         >
           <img
-            src={`/flower${flower.type}.png`}
+            src={`${import.meta.env.BASE_URL}flower${flower.type}.png`}
             alt="Flower decoration"
             className="flower-image"
           />

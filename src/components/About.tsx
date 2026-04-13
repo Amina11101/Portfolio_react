@@ -57,7 +57,7 @@ export default function About() {
           >
             <div className="about-image-wrapper">
               <img
-                src="/Amina.jpg"
+                src={`${import.meta.env.BASE_URL}Amina.jpg`}
                 alt="Amina Ansar"
                 className="about-image"
               />
