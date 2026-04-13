@@ -467,26 +467,26 @@ export default function CaseStudy({ data, isRecruiterMode }: CaseStudyProps) {
               <img src={`${import.meta.env.BASE_URL}medimate/ProjectImage9.png`} alt="Final Design 9" className="final-design-image" />
               <img src={`${import.meta.env.BASE_URL}medimate/ProjectImage10.png`} alt="Final Design 10" className="final-design-image" />
               <img src={`${import.meta.env.BASE_URL}medimate/ProjectImage11.png`} alt="Final Design 11" className="final-design-image" />
-              <img src="/medimate/ProjectImage12.png" alt="Final Design 12" className="final-design-image" />
-              <img src="/medimate/ProjectImage13.png" alt="Final Design 13" className="final-design-image" />
-              <img src="/medimate/ProjectImage14.png" alt="Final Design 14" className="final-design-image" />
-              <img src="/medimate/ProjectImage15.png" alt="Final Design 15" className="final-design-image" />
-              <img src="/medimate/ProjectImage16.png" alt="Final Design 16" className="final-design-image" />
-              <img src="/medimate/ProjectImage17.png" alt="Final Design 17" className="final-design-image" />
-              <img src="/medimate/ProjectImage18.png" alt="Final Design 18" className="final-design-image" />
-              <img src="/medimate/ProjectImage19.png" alt="Final Design 19" className="final-design-image" />
-              <img src="/medimate/ProjectImage20.png" alt="Final Design 20" className="final-design-image" />
-              <img src="/medimate/ProjectImage21.png" alt="Final Design 21" className="final-design-image" />
-              <img src="/medimate/ProjectImage22.png" alt="Final Design 22" className="final-design-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/ProjectImage12.png`} alt="Final Design 12" className="final-design-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/ProjectImage13.png`} alt="Final Design 13" className="final-design-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/ProjectImage14.png`} alt="Final Design 14" className="final-design-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/ProjectImage15.png`} alt="Final Design 15" className="final-design-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/ProjectImage16.png`} alt="Final Design 16" className="final-design-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/ProjectImage17.png`} alt="Final Design 17" className="final-design-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/ProjectImage18.png`} alt="Final Design 18" className="final-design-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/ProjectImage19.png`} alt="Final Design 19" className="final-design-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/ProjectImage20.png`} alt="Final Design 20" className="final-design-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/ProjectImage21.png`} alt="Final Design 21" className="final-design-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/ProjectImage22.png`} alt="Final Design 22" className="final-design-image" />
               <div className="video-thumbnail-wrapper" onClick={handleVideoClick}>
                 <video 
                   ref={videoRef}
                   className="video-thumbnail"
-                  poster="/medimate/ProjectImage1.png"
+                  poster={`${import.meta.env.BASE_URL}medimate/ProjectImage1.png`}
                   onPlay={() => setIsPlaying(true)}
                   onPause={() => setIsPlaying(false)}
                 >
-                  <source src="/medimate/Video Project.mp4" type="video/mp4" />
+                  <source src={`${import.meta.env.BASE_URL}medimate/Video Project.mp4`} type="video/mp4" />
                 </video>
                 <div className={`play-button-overlay ${isPlaying ? 'hidden' : ''}`}></div>
               </div>
