@@ -179,17 +179,17 @@ export default function CaseStudyMediMate({ isRecruiterMode }: CaseStudyMediMate
               <h3>Research Methods</h3>
               <div className="research-methods">
                 <div className="method-card">
-                  <span className="method-icon">👥</span>
+                  <span className="method-icon"></span>
                   <h4>In-Depth Interviews</h4>
                   <p>Conducted 12+ interviews with international residents to understand healthcare pain points</p>
                 </div>
                 <div className="method-card">
-                  <span className="method-icon">📊</span>
+                  <span className="method-icon"></span>
                   <h4>Competitive Analysis</h4>
                   <p>Analyzed 8+ existing German healthcare apps to identify gaps in multilingual support</p>
                 </div>
                 <div className="method-card">
-                  <span className="method-icon">🗺️</span>
+                  <span className="method-icon"></span>
                   <h4>Journey Mapping</h4>
                   <p>Created detailed user journeys to identify critical pain points in the healthcare process</p>
                 </div>
@@ -227,7 +227,7 @@ export default function CaseStudyMediMate({ isRecruiterMode }: CaseStudyMediMate
 
             {/* User Journey */}
             <div className="research-subsection">
-              <h3>User Journey: Aisha's Story</h3>
+              <h3>User Journey: Priya's Story</h3>
               <p className="journey-intro">A 26-year-old international master's student experiencing recurring stomach pain wanted to track symptoms before a doctor visit.</p>
               <div className="journey-stages">
                 <div className="journey-stage">
@@ -310,77 +310,15 @@ export default function CaseStudyMediMate({ isRecruiterMode }: CaseStudyMediMate
             <p className="section-intro">A cohesive, accessible design system built for healthcare trust and clarity.</p>
             
             <motion.section variants={itemVariants} className="case-section photo-section">
-              <img src={`${import.meta.env.BASE_URL}medimate/typography.png`} alt="Typography System" className="case-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/Typography.png`} alt="Typography System" className="case-image" />
             </motion.section>
             
             <div className="design-system-subsection">
-              <h3>Color Palette</h3>
-              <div className="color-grid">
-                <div className="color-card">
-                  <div className="color-swatch" style={{backgroundColor: '#205BE0'}}></div>
-                  <p className="color-name">Primary Blue</p>
-                  <p className="color-code">#205BE0</p>
-                  <p className="color-usage">Primary actions</p>
-                </div>
-                <div className="color-card">
-                  <div className="color-swatch" style={{backgroundColor: '#1D416D'}}></div>
-                  <p className="color-name">Dark Blue</p>
-                  <p className="color-code">#1D416D</p>
-                  <p className="color-usage">Text, backgrounds</p>
-                </div>
-                <div className="color-card">
-                  <div className="color-swatch" style={{backgroundColor: '#FFFFFF', border: '1px solid #E0E0E0'}}></div>
-                  <p className="color-name">White</p>
-                  <p className="color-code">#FFFFFF</p>
-                  <p className="color-usage">Main background</p>
-                </div>
-                <div className="color-card">
-                  <div className="color-swatch" style={{backgroundColor: '#F5F5F5'}}></div>
-                  <p className="color-name">Light Grey</p>
-                  <p className="color-code">#F5F5F5</p>
-                  <p className="color-usage">Secondary background</p>
-                </div>
-                <div className="color-card">
-                  <div className="color-swatch" style={{backgroundColor: '#771D1D'}}></div>
-                  <p className="color-name">Error Red</p>
-                  <p className="color-code">#771D1D</p>
-                  <p className="color-usage">Alerts, errors</p>
-                </div>
-                <div className="color-card">
-                  <div className="color-swatch" style={{backgroundColor: '#1D990F'}}></div>
-                  <p className="color-name">Success Green</p>
-                  <p className="color-code">#1D990F</p>
-                  <p className="color-usage">Success states</p>
-                </div>
-              </div>
+             
             </div>
 
             <div className="design-system-subsection">
-              <h3>Typography</h3>
-              <p style={{marginBottom: '1.5rem', color: 'var(--text-light)'}}>Font Families: Inter, Poppins</p>
-              <p style={{marginBottom: '1.5rem', color: 'var(--text-light)'}}>Size Range: 10px (min) - 16px (max)</p>
-              <div className="typography-guide">
-                <div className="typography-item">
-                  <h4 style={{fontSize: '2.5rem', fontFamily: 'Poppins'}}>H1 - 2.5rem (Poppins)</h4>
-                  <p>Page titles, hero sections - Bold, commanding presence</p>
-                </div>
-                <div className="typography-item">
-                  <h4 style={{fontSize: '1.8rem', fontFamily: 'Poppins'}}>H2 - 1.8rem (Poppins)</h4>
-                  <p>Section headers, main content divisions</p>
-                </div>
-                <div className="typography-item">
-                  <h4 style={{fontSize: '1.2rem', fontFamily: 'Poppins'}}>H3 - 1.2rem (Poppins)</h4>
-                  <p>Subsection headers, component titles</p>
-                </div>
-                <div className="typography-item">
-                  <p style={{fontSize: '1rem', fontFamily: 'Inter'}}>Body - 1rem (Inter)</p>
-                  <p>Primary content text, readable at any distance</p>
-                </div>
-                <div className="typography-item">
-                  <p style={{fontSize: '0.875rem', fontFamily: 'Inter'}}>Small - 0.875rem (Inter)</p>
-                  <p>Secondary text, labels, captions</p>
-                </div>
-              </div>
+              
             </div>
 
             <div className="design-system-subsection">
