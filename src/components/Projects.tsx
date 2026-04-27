@@ -15,6 +15,16 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
+    title: 'AGENTFLOW',
+    description:
+      'AI-powered dashboard for managing and monitoring autonomous agents, providing real-time insights and control over agent workflows.',
+    category: 'Web Application',
+    tags: ['AI', 'Dashboard', 'Real-time Monitoring', 'UX Design'],
+    image: 'https://via.placeholder.com/600x400?text=AGENTFLOW',
+    color: '#6366F1',
+  },
+  {
+    id: 2,
     title: 'MediMate',
     description:
       'Mobile app for patient health management, helping users track medications, appointments, and health metrics in one place.',
@@ -24,7 +34,7 @@ const projects: Project[] = [
     color: '#EFA3B5',
   },
   {
-    id: 2,
+    id: 3,
     title: 'E-commerce Platform',
     description:
       'Full platform redesign improving conversion rates through better product discovery and checkout flow.',
@@ -34,7 +44,7 @@ const projects: Project[] = [
     color: '#F6C1CF',
   },
   {
-    id: 3,
+    id: 4,
     title: 'SaaS Dashboard',
     description:
       'Intuitive analytics dashboard for data-driven teams, emphasizing clarity and actionable insights.',
