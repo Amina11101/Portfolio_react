@@ -75,7 +75,7 @@ export default function ProjectPage() {
           >
             <h3>Ready to work together?</h3>
             <p>I'm always interested in hearing about new projects.</p>
-            <a href="mailto:hello@example.com" className="cta-button">
+            <a href="mailto:aminaaansarr@gmail.com" className="cta-button">
               Start a Project
             </a>
           </motion.div>

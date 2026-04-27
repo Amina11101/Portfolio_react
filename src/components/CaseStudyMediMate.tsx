@@ -309,6 +309,10 @@ export default function CaseStudyMediMate({ isRecruiterMode }: CaseStudyMediMate
             <h2>Design System & Visual Language</h2>
             <p className="section-intro">A cohesive, accessible design system built for healthcare trust and clarity.</p>
             
+            <motion.section variants={itemVariants} className="case-section photo-section">
+              <img src={`${import.meta.env.BASE_URL}medimate/typography.png`} alt="Typography System" className="case-image" />
+            </motion.section>
+            
             <div className="design-system-subsection">
               <h3>Color Palette</h3>
               <div className="color-grid">
@@ -599,7 +603,7 @@ export default function CaseStudyMediMate({ isRecruiterMode }: CaseStudyMediMate
             </div>
           </motion.section>
 
-          {/* CTA Section */}
+          {/* CTA Section 
           <motion.section variants={itemVariants} className="case-section cta-section">
             <h2>Want to see more?</h2>
             <p>Interested in discussing this project or collaborating on similar challenges?</p>
@@ -607,7 +611,7 @@ export default function CaseStudyMediMate({ isRecruiterMode }: CaseStudyMediMate
               <button className="btn-primary">Get in Touch</button>
               <button className="btn-secondary">View More Projects</button>
             </div>
-          </motion.section>
+          </motion.section>*/}
         </motion.div>
       )}
     </motion.div>
