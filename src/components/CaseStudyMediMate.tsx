@@ -1,14 +1,15 @@
 import { motion } from 'framer-motion'
-import React from 'react'
+import { useRef, useState } from 'react'
 import './CaseStudy.css'
+import { containerVariants, itemVariants } from '../utils/caseStudyAnimations'
 
 interface CaseStudyMediMateProps {
   isRecruiterMode: boolean
 }
 
 export default function CaseStudyMediMate({ isRecruiterMode }: CaseStudyMediMateProps) {
-  const videoRef = React.useRef<HTMLVideoElement>(null)
-  const [isPlaying, setIsPlaying] = React.useState(false)
+  const videoRef = useRef<HTMLVideoElement>(null)
+  const [isPlaying, setIsPlaying] = useState(false)
 
   const handleVideoClick = () => {
     if (videoRef.current) {
@@ -20,26 +21,6 @@ export default function CaseStudyMediMate({ isRecruiterMode }: CaseStudyMediMate
         setIsPlaying(false)
       }
     }
-  }
-
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.08,
-        delayChildren: 0.1,
-      },
-    },
-  }
-
-  const itemVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.6 },
-    },
   }
 
   return (
@@ -57,13 +38,13 @@ export default function CaseStudyMediMate({ isRecruiterMode }: CaseStudyMediMate
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <div className="mode-badge">⚡ 30-Second Scan</div>
+          <div className="mode-badge">30-Second Scan</div>
 
           <motion.div variants={itemVariants} className="quick-overview">
             <h2>MediMate</h2>
             <p className="subtitle">Mobile App</p>
             <p className="description">Mobile app for patient health management, helping users track medications, appointments, and health metrics in one place.</p>
-            <p className="tagline">Breaking language barriers in German healthcare through inclusive, bilingual medical companion app design</p>
+           {/* <p className="tagline">Breaking language barriers in German healthcare through inclusive, bilingual medical companion app design</p>*/}
           </motion.div>
 
           <motion.div variants={itemVariants} className="quick-stats">
@@ -115,7 +96,7 @@ export default function CaseStudyMediMate({ isRecruiterMode }: CaseStudyMediMate
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <div className="mode-badge">📖 Full Case Study</div>
+          <div className="mode-badge">Full Case Study</div>
 
           {/* Hero Section */}
           <motion.section variants={itemVariants} className="case-hero">

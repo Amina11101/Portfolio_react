@@ -63,7 +63,7 @@ export default function CaseStudy({ data, isRecruiterMode }: CaseStudyProps) {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <div className="mode-badge">⚡ 30-Second Scan</div>
+          <div className="mode-badge">30-Second Scan</div>
 
           <motion.div variants={itemVariants} className="quick-overview">
             <h2>{data.title}</h2>

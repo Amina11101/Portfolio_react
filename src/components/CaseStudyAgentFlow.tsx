@@ -1,30 +1,12 @@
 import { motion } from 'framer-motion'
 import './CaseStudy.css'
+import { containerVariants, itemVariants } from '../utils/caseStudyAnimations'
 
 interface CaseStudyAgentFlowProps {
   isRecruiterMode: boolean
 }
 
 export default function CaseStudyAgentFlow({ isRecruiterMode }: CaseStudyAgentFlowProps) {
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.08,
-        delayChildren: 0.1,
-      },
-    },
-  }
-
-  const itemVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.6 },
-    },
-  }
 
   return (
     <motion.div
