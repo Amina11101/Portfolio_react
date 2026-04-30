@@ -35,23 +35,13 @@ const projects: Project[] = [
   },
   {
     id: 3,
-    title: 'E-commerce Platform',
+    title: 'Shepherd Grain',
     description:
-      'Full platform redesign improving conversion rates through better product discovery and checkout flow.',
-    category: 'Web Design',
-    tags: ['E-commerce', 'Conversion Design', 'Usability'],
-    image: 'https://via.placeholder.com/600x400?text=E-commerce',
+      'Mobile & tablet CRM application for grain traders, enabling real-time client relationship management, transaction tracking, and inventory control from the field.',
+    category: 'Mobile & Tablet App',
+    tags: ['Mobile', 'Tablet', 'CRM', 'Agriculture', 'React Native'],
+    image: '/Shepherd Grain/hero.png',
     color: '#F6C1CF',
-  },
-  {
-    id: 4,
-    title: 'SaaS Dashboard',
-    description:
-      'Intuitive analytics dashboard for data-driven teams, emphasizing clarity and actionable insights.',
-    category: 'Web Application',
-    tags: ['SaaS', 'Data Viz', 'Dashboard Design'],
-    image: 'https://via.placeholder.com/600x400?text=SaaS+Dashboard',
-    color: '#EFA3B5',
   },
 ]
 

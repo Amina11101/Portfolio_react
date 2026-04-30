@@ -26,7 +26,7 @@ export default function CaseStudyEcommerce({ isRecruiterMode }: CaseStudyEcommer
           <div className="mode-badge">⚡ 30-Second Scan</div>
 
           <motion.div variants={itemVariants} className="quick-overview">
-            <h2>E-commerce Platform</h2>
+            <h2>Shepherd Grain</h2>
             <p className="subtitle">Web Design</p>
             <p className="description">Intuitive analytics dashboard for data-driven teams, designed to reduce time-to-insight by 60%.</p>
           </motion.div>

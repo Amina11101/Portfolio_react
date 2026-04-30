@@ -23,7 +23,7 @@ export default function CaseStudyAgentFlow({ isRecruiterMode }: CaseStudyAgentFl
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <div className="mode-badge">⚡ 30-Second Scan</div>
+          <div className="mode-badge">30-Second Scan</div>
 
           <motion.div variants={itemVariants} className="quick-overview">
             <h2>AGENTFLOW</h2>
@@ -65,7 +65,7 @@ export default function CaseStudyAgentFlow({ isRecruiterMode }: CaseStudyAgentFl
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <div className="mode-badge">📖 Full Case Study</div>
+          <div className="mode-badge">Full Case Study</div>
 
           {/* Hero Section */}
           <motion.section variants={itemVariants} className="case-hero">
@@ -164,15 +164,7 @@ export default function CaseStudyAgentFlow({ isRecruiterMode }: CaseStudyAgentFl
             </div>
           </motion.section>
 
-          {/* CTA Section */}
-          <motion.section variants={itemVariants} className="final-cta-section">
-            <h2>Want to see more?</h2>
-            <p>Interested in discussing this project or collaborating on similar challenges?</p>
-            <div className="cta-buttons">
-              <button className="btn-primary">Get in Touch</button>
-              <button className="btn-secondary">View More Projects</button>
-            </div>
-          </motion.section>
+          
         </motion.div>
       )}
     </motion.div>

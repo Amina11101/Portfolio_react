@@ -16,9 +16,7 @@
   border: 1px solid #3A4455;
 }
 
-.project-card:hover {
-  box-shadow: var(--shadow);
-}
+
 
 /* Project Image */
 .project-image-container {
@@ -36,9 +34,7 @@
   transition: transform 0.3s ease;
 }
 
-.project-card:hover .project-image {
-  transform: scale(1.05);
-}
+
 
 .project-overlay {
   position: absolute;
@@ -54,9 +50,11 @@
   transition: opacity 0.3s ease;
 }
 
-.project-card:hover .project-overlay {
+.project-image-container:hover .project-overlay {
   opacity: 1;
 }
+
+
 
 .view-case-study {
   color: white;
@@ -72,11 +70,7 @@
   gap: 0.5rem;
 }
 
-.view-case-study:hover {
-  background: var(--primary-pink-light);
-  transform: translateY(-3px);
-  box-shadow: 0px 15px 35px rgba(239, 163, 181, 0.2);
-}
+
 
 .view-case-study:focus {
   outline: 2px solid var(--text);
@@ -140,10 +134,7 @@
   border: 1px solid #4A5566;
 }
 
-.project-card:hover .tag {
-  background: rgba(239, 163, 181, 0.15);
-  color: var(--primary-pink);
-}
+
 
 /* Responsive */
 @media (max-width: 768px) {

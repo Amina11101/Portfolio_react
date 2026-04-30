@@ -93,10 +93,7 @@
   transition: all 0.3s ease;
 }
 
-.skill-tag:hover {
-  background: rgba(239, 163, 181, 0.2);
-  color: var(--primary-pink);
-}
+
 
 .skill-tag:focus {
   outline: 2px solid var(--primary-pink);
@@ -123,11 +120,7 @@
   box-shadow: 0px 10px 25px rgba(239, 163, 181, 0.2);
 }
 
-.view-resume:hover {
-  background: var(--primary-pink-light);
-  transform: translateY(-3px);
-  box-shadow: 0px 20px 45px rgba(239, 163, 181, 0.3);
-}
+
 
 .view-resume:focus {
   outline: 2px solid var(--primary-pink);

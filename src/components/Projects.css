@@ -30,9 +30,7 @@
   height: 100%;
 }
 
-.project-card:hover {
-  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.08);
-}
+
 
 /* Project Image */
 .project-image-container {
@@ -50,9 +48,7 @@
   transition: transform 0.3s ease;
 }
 
-.project-card:hover .project-image {
-  transform: scale(1.05);
-}
+
 
 .project-overlay {
   position: absolute;
@@ -68,9 +64,11 @@
   transition: opacity 0.3s ease;
 }
 
-.project-card:hover .project-overlay {
+.project-image-container:hover .project-overlay {
   opacity: 1;
 }
+
+
 
 .view-case-study {
   color: white;
@@ -149,10 +147,7 @@
   transition: all 0.3s ease;
 }
 
-.project-card:hover .tag {
-  background: rgba(239, 163, 181, 0.15);
-  color: var(--primary-pink);
-}
+
 
 /* Responsive */
 @media (max-width: 768px) {

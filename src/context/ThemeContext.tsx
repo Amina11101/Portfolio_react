@@ -12,14 +12,11 @@ const ThemeContext = createContext<ThemeContextType | undefined>(undefined)
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
   const [theme, setTheme] = useState<Theme>(() => {
-    // Check localStorage first
+    // Check localStorage for explicitly saved theme
     const savedTheme = localStorage.getItem('theme') as Theme | null
     if (savedTheme) return savedTheme
 
-    // Check system preference
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      return 'dark'
-    }
+    // Always default to light mode
     return 'light'
   })
 

@@ -5,16 +5,14 @@ import Navbar from '../components/Navbar'
 import ToggleView from '../components/ToggleView'
 import CaseStudyMediMate from '../components/CaseStudyMediMate'
 import CaseStudyAgentFlow from '../components/CaseStudyAgentFlow'
-import CaseStudyEcommerce from '../components/CaseStudyEcommerce'
-import CaseStudySaasDashboard from '../components/CaseStudySaasDashboard'
+import CaseStudyShepherdGrain from '../components/CaseStudyShepherdGrain'
 import Footer from '../components/Footer'
 import '../components/ProjectPage.css'
 
 const caseStudyComponents = {
   '1': CaseStudyAgentFlow,
   '2': CaseStudyMediMate,
-  '3': CaseStudyEcommerce,
-  '4': CaseStudySaasDashboard,
+  '3': CaseStudyShepherdGrain,
 }
 
 export default function ProjectPage() {
