@@ -3,7 +3,7 @@ import { CaseStudyData } from '../types'
 export const agentflowData: CaseStudyData = {
   title: 'AGENTFLOW',
   category: 'Web Application',
-  image: '/agentflow.png',
+  image: '/agentflow/hero.png',
   description:
     'AI-powered dashboard for managing and monitoring autonomous agents, providing real-time visualization, debugging, and optimization of multi-agent AI systems in production.',
   result: 'Debugging time reduced by 85% (3 minutes vs. 30-60 minutes), agent deployment velocity increased 2.3x, average 22% reduction in AI costs, 63% decrease in agent failures within first month',

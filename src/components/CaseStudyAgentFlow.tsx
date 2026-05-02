@@ -78,9 +78,11 @@ export default function CaseStudyAgentFlow({ isRecruiterMode }: CaseStudyAgentFl
 
           {/* Hero Image */}
           <motion.section variants={itemVariants} className="case-section photo-section">
-            <div className="photo-placeholder">
-              <span className="placeholder-text">Project Hero Image</span>
-            </div>
+            <img
+              src="/agentflow/hero.png"
+              alt="AgentFlow Dashboard"
+              className="case-hero-image"
+            />
           </motion.section>
 
           {/* Overview Stats */}

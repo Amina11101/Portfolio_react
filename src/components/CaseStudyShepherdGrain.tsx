@@ -89,8 +89,12 @@ export default function CaseStudyShepherdGrain({ isRecruiterMode }: CaseStudyShe
           <motion.section variants={itemVariants} className="case-section stats-section">
             <span className="section-number">01 — PROJECT OVERVIEW</span>
             <h2>Project Overview</h2>
-            <p className="overview-description">Shepherd Grain is a comprehensive mobile and tablet CRM platform built for agricultural traders and grain industry professionals. The application enables real-time management of client relationships, transaction tracking, inventory control, and market pricing information—all optimized for field and office operations with offline capabilities.</p>
+            <p className="overview-description">A logistics management platform designed to help warehouse teams track container arrivals, inspections, and loading operations efficiently. The application enables staff to monitor daily operations through a centralized dashboard while providing tools for scanning containers, recording shipment details, and managing inspections.</p>
             <div className="overview-grid">
+               <div className="overview-card">
+                <span className="overview-label">Role</span>
+                <p className="overview-value">Product Designer</p>
+              </div>
               <div className="overview-card">
                 <span className="overview-label">Project Type</span>
                 <p className="overview-value">Freelance Mobile App</p>
@@ -98,10 +102,6 @@ export default function CaseStudyShepherdGrain({ isRecruiterMode }: CaseStudyShe
               <div className="overview-card">
                 <span className="overview-label">Duration</span>
                 <p className="overview-value">4 months</p>
-              </div>
-              <div className="overview-card">
-                <span className="overview-label">Role</span>
-                <p className="overview-value">Lead Designer & Developer</p>
               </div>
             </div>
           </motion.section>
@@ -113,14 +113,14 @@ export default function CaseStudyShepherdGrain({ isRecruiterMode }: CaseStudyShe
               <h2>The Grain Trading Problem</h2>
             </div>
             <div className="problem-impact">
-              <p>Agricultural traders were managing client relationships and transactions using outdated systems, spreadsheets, and fragmented tools. They needed a centralized mobile platform to access critical information, track deals, manage inventory, and handle pricing updates while working in the field with unreliable internet connectivity.</p>
-            </div>
+              <p>Warehouse staff needed a faster and more reliable way to manage daily grain container operations. Existing processes relied heavily on manual tracking and fragmented systems, making it difficult to monitor arrivals, inspections, and shipments efficiently.</p>
+              </div>
           </motion.section>
 
           {/* Solution Section */}
           <motion.section variants={itemVariants} className="case-section solution-section">
             <span className="section-number">03 — SOLUTION</span>
-            <h2>The Solution</h2>
+
             <div className="section-content">
               <p>Designed and developed a comprehensive mobile CRM application that consolidates client data, transaction history, inventory tracking, and real-time pricing information. The app features offline functionality to support field operations with unreliable connectivity, automatic syncing, intelligent data caching, and an intuitive interface optimized for quick information access and transaction processing.</p>
             </div>

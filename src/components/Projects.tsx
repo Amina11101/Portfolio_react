@@ -20,7 +20,7 @@ const projects: Project[] = [
       'AI-powered dashboard for managing and monitoring autonomous agents, providing real-time insights and control over agent workflows.',
     category: 'Web Application',
     tags: ['AI', 'Dashboard', 'Real-time Monitoring', 'UX Design'],
-    image: 'https://via.placeholder.com/600x400?text=AGENTFLOW',
+    image: '/agentflow/hero.png',
     color: '#6366F1',
   },
   {
