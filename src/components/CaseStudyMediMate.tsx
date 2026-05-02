@@ -357,9 +357,7 @@ export default function CaseStudyMediMate({ isRecruiterMode }: CaseStudyMediMate
             <h2>Final Designs</h2>
             <p className="section-intro">The polished, production-ready interface built for international healthcare users.</p>
             <div className="final-designs-grid">
-              <img src={`${import.meta.env.BASE_URL}medimate/1.jpg`} alt="Final Design 1" className="final-design-image" />
-              <img src={`${import.meta.env.BASE_URL}medimate/3.jpg`} alt="Final Design 2" className="final-design-image" />
-              <img src={`${import.meta.env.BASE_URL}medimate/2.jpg`} alt="Final Design 3" className="final-design-image" />
+              <img src={`${import.meta.env.BASE_URL}medimate/ProjectImageFinal.png`} alt="Final Design" className="final-design-image" />
             </div>
           </motion.section>
 

@@ -153,9 +153,19 @@ export default function CaseStudyAgentFlow({ isRecruiterMode }: CaseStudyAgentFl
             </div>
           </motion.section>
 
+          {/* Final Design Section */}
+          <motion.section variants={itemVariants} className="case-section final-designs-section">
+            <span className="section-number">07 — FINAL DESIGN</span>
+            <h2>Final Design</h2>
+            <p className="section-intro">The polished, production-ready interface built for managing and monitoring autonomous agents.</p>
+            <div className="photo-section">
+              <img src={`${import.meta.env.BASE_URL}agentflow/FinalDesign.png`} alt="Final Design" className="case-hero-image" />
+            </div>
+          </motion.section>
+
           {/* Tools Section */}
           <motion.section variants={itemVariants} className="case-section design-system-section">
-            <span className="section-number">07 — TOOLS</span>
+            <span className="section-number">08 — TOOLS</span>
             <h2>Tools & Technologies</h2>
             <div className="tools-showcase">
               {['Figma', 'FigJam', 'Principle', 'React', 'Chrome Extension Development'].map((tool, index) => (

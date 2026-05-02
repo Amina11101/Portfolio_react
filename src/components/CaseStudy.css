@@ -113,8 +113,8 @@
 
 
 .tool-logo-img {
-  width: 48px;
-  height: 48px;
+  width: 28px;
+  height: 28px;
   margin-bottom: 0.5rem;
   object-fit: contain;
 }
@@ -2250,6 +2250,13 @@
   font-weight: 600;
 }
 
+.design-system-subsection h2 + .case-image {
+  max-width: 650px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
 .color-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -2362,6 +2369,17 @@
   height: 2.5rem;
   background: linear-gradient(135deg, var(--primary-pink), rgba(0, 168, 120, 0.3));
   border-radius: 2px;
+}
+
+.final-designs-section .photo-section {
+  max-width: 13500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.final-designs-section .case-hero-image {
+  max-width: 100%;
+  width: 100%;
 }
 
 /* Usability Testing Section */
